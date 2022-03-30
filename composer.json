@@ -1,0 +1,43 @@
+{
+	"name": "jambagecom/escaper",
+	"type": "typo3-cms-extension",
+	"description": "This provides the Laminas Escaper XSS library.",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"escaper",
+		"laminas"
+	],
+	"support": {
+		"issues": "https://github.com/franzholz/escaper/issues"
+	},
+	"homepage": "https://jambage.com",
+    "authors": [
+		{
+			"name": "Franz Holzinger",
+			"homepage": "https://ttproducts.de"
+		}
+    ],
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"require": {
+        "php": "^7.4 || ~8.0.0 || ~8.1.0",
+        "ext-ctype": "*",
+        "ext-mbstring": "*",
+		"typo3/cms-core": "^10.4 || ^11.5"
+	},
+    "autoload": {
+        "psr-4": {
+            "Laminas\\Escaper\\": "Vendor/Laminas/src/"
+        }
+    },
+	"replace": {
+		"typo3-ter/base-word": "self.version"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "escaper"
+		}
+	}
+}
