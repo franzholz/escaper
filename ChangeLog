@@ -1,3 +1,7 @@
+2023-05-09 Franz Holzinger <franz@ttproducts.de>
+    * new version Laminas Escaper-2.12.0.
+    * support for TYPO3 12
+
 2022-03-30 Franz Holzinger <franz@ttproducts.de>
     * initial creation based on Laminas Escaper-2.10.0. See the file Vendor/version.txt .
 
